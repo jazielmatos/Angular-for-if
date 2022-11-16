@@ -22,14 +22,14 @@ export class TabelasComponent implements OnInit {
         nome: 'Morango',
         descricao: 'Um Morango',
         preco: 5.5,
-        cpf: '51877328898'
+        cpf: '99999999999'
       },
       {
         id: 2,
         nome: 'Pessego',
         descricao: 'Um Pessego',
         preco: 5.5,
-        cpf: '51877328898'
+        cpf: '99999999999'
       }
     )
 
