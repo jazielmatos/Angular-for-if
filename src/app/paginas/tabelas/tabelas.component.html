@@ -14,6 +14,8 @@
                 aria-label="Office: activate to sort column ascending" style="width: 115px;">Descrição</th>
             <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
                 aria-label="Age: activate to sort column ascending" style="width: 51px;">Valor</th>
+                <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                aria-label="Age: activate to sort column ascending" style="width: 51px;">CPF</th>
         </tr>
     </thead>
     <tbody>
@@ -22,6 +24,7 @@
             <td>{{produto.nome}}</td>
             <td>{{produto.descricao}}</td>
             <td>R$ {{produto.preco}}</td>
+            <td>{{produto.cpf | pipeCpf}}</td>
         </tr>
     </tbody>
 </table>

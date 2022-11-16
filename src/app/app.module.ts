@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './paginas/home/home.component';
 import { SobreComponent } from './paginas/sobre/sobre.component';
 import { TabelasComponent } from './paginas/tabelas/tabelas.component';
+import { PipeCpfPipe } from './pipes/pipe-cpf.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SobreComponent,
-    TabelasComponent
+    TabelasComponent,
+    PipeCpfPipe
   ],
   imports: [
     BrowserModule,
